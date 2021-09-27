@@ -363,6 +363,13 @@ header  ul  li:last-child a:hover
   margin: 0;
   color: var(--secondary-color);
 }
+@media(min-width:440px) {
+
+  .test-item
+  {
+    transform: translate(50%, -150%) !important;
+  }
+}
 .test-item
 {
   transform: translate(50%, 200%);
